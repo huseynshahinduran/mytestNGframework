@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite 4" verbose="2">
+
+    <test name="Group 1">
+
+        <groups>
+
+            <run>
+     <!-- sadece @Test(group="group test1") annotationi olan metotlari calistirir. -->
+                <include name="grouptest1"></include>
+
+            </run>
+
+        </groups>
+
+        <classes>
+
+            <class name="com.techproed.smoketest.NegativeTestGlbSingIn"></class>
+
+        </classes>
+
+    </test>
+
+</suite>

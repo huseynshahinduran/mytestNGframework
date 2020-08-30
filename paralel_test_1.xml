@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suit 1" parallel="methods" thread-count="3">
+    
+    <test name="paralel test">
+        
+        <classes>
+            
+            <class name="com.techproed.paralelTesting.Test1"></class>
+            <class name="com.techproed.paralelTesting.Test2"></class>
+            
+        </classes>
+        
+    </test>
+    
+</suite>
